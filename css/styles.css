@@ -1,0 +1,189 @@
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+
+body{
+    background-color : #E3B781;
+}
+
+textarea{
+    width: 100%;
+    
+}
+
+select{
+    width: 100%;
+}
+
+.container{
+    background-color : white;
+    padding-top: 1em;
+}
+
+
+/* custom panel for readymix */
+
+.panel-readymix {
+  border-color: #E3B781;
+}
+.panel-readymix > .panel-heading {
+  color: #fff;
+  background-color: #E3B781;
+  border-color: #E3B781;
+}
+.panel-readymix > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #E3B781;
+}
+.panel-readymix > .panel-heading .badge {
+  color: #E3B781;
+  background-color: #fff;
+}
+.panel-readymix > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #E3B781;
+}
+
+.page-title {
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+    margin-bottom: 15px;
+}
+
+.faq-row{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.general-title {
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+.general-text {
+	font-family: 'Arial', Gadget, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+/* contact panel for trinidad/barbados */
+.contact-panel{
+    margin-right: 10px;
+}
+
+
+/* navbar styles */
+.navbar-readymix {
+
+}
+.navbar-readymix .navbar-brand {
+  color: #777;
+}
+.navbar-readymix .navbar-brand:hover,
+.navbar-readymix .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-readymix .navbar-text {
+  color: #777;
+}
+.navbar-readymix .navbar-nav > li > a {
+    color: #FF9D3A;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+.navbar-readymix .navbar-nav > li > a:hover,
+.navbar-readymix .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-readymix .navbar-nav > .active > a,
+.navbar-readymix .navbar-nav > .active > a:hover,
+.navbar-readymix .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-readymix .navbar-nav > .disabled > a,
+.navbar-readymix .navbar-nav > .disabled > a:hover,
+.navbar-readymix .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-readymix .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-readymix .navbar-toggle:hover,
+.navbar-readymix .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-readymix .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-readymix .navbar-collapse,
+.navbar-readymix .navbar-form {
+  border-color: #e7e7e7;
+    background-color: white;
+}
+.navbar-readymix .navbar-nav > .open > a,
+.navbar-readymix .navbar-nav > .open > a:hover,
+.navbar-readymix .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-readymix .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-readymix .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-readymix .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-readymix .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-readymix .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-readymix .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-readymix .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-readymix .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-readymix .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-readymix .navbar-link {
+  color: #777;
+}
+.navbar-readymix .navbar-link:hover {
+  color: #333;
+}
+.navbar-readymix .btn-link {
+  color: #777;
+}
+.navbar-readymix .btn-link:hover,
+.navbar-readymix .btn-link:focus {
+  color: #333;
+}
+.navbar-readymix .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-readymix .btn-link:hover,
+.navbar-readymix .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-readymix .btn-link:focus {
+  color: #ccc;
+}
