@@ -187,3 +187,11 @@ fieldset[disabled] .navbar-readymix .btn-link:hover,
 fieldset[disabled] .navbar-readymix .btn-link:focus {
   color: #ccc;
 }
+
+.director-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 135px;
+}
