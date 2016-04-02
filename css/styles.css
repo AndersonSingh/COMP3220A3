@@ -78,11 +78,29 @@ select{
 	line-height: 20px;
 }
 
+.csr-menu-title{
+    font-size:20px;
+}
+
+.csr-menu-text{
+     color: #FF9D3A;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
 /* contact panel for trinidad/barbados */
 .contact-panel{
     margin-right: 10px;
 }
 
+.new-message{
+    display : block; 
+    width: 100%;
+}
 
 /* navbar styles */
 .navbar-readymix {
@@ -194,4 +212,12 @@ fieldset[disabled] .navbar-readymix .btn-link:focus {
     margin-right: auto;
     height: 100px;
     width: 135px;
+}
+
+.right-label{
+    text-align: right;
+}
+
+.center-label{
+    text-align: center;
 }
