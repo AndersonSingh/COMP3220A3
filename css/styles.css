@@ -1,3 +1,11 @@
+.img-center{
+    display:block; 
+    margin: auto;
+}
+
+.active-link{
+    color: black !important;
+}
 .clickable{
     cursor: pointer;   
 }
@@ -95,6 +103,9 @@ select{
 /* contact panel for trinidad/barbados */
 .contact-panel{
     margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .new-message{
