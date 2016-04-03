@@ -89,28 +89,33 @@
 
         <div class="row">
           <div class="col-md-8">
+            <h5 id="investorReportHeader">
+              Reports
+            </h5>
             <h5>
               Please select a report from the dropdown list and click the download button.
             </h5>
 
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Dropdown
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="Click to select report">
-                <li><a href="#">2015 Quarter 4</a></li>
-                <li><a href="#">2015 Quarter 3</a></li>
-                <li><a href="#">2015 Quarter 2</a></li>
-                <li><a href="#">2015 Quarter 1</a></li>
-              </ul>
-            </div>
+            <select id="reportlistselection">
+              <option>2015 Quarter 4</option>
+              <option>2015 Quarter 3</option>
+              <option>2015 Quarter 2</option>
+              <option>2015 Quarter 1</option>
+            </select>
             <br>
-            <button type="button" class="btn btn-default">Download</button>
-
-            <h5>
+            <br>
+            <button type="button" class="btn btn-default" id="downloadBtn">Download</button>
+            <br>
+            <br>
+            <p>
+              Note: Adobe acrobat is required to view the pdf files.
+            </p>
+            <p id="acrobatDownloadClick">Click here to download adobe acrobat.</p>
+            <br>
+            <h5 id="stockTableHeader">
               Stock Price as of April 2nd, 2016.
             </h5>
+            <br>
             <table class="table table-bordered">
               <tr>
                 <td>Open Quote</td>
