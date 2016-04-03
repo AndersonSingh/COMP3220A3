@@ -1,8 +1,8 @@
 $(document).ready(function() {
     var selectedReport = $('#reportlistselection').find(":selected").text();
-    $("#downloadBtn").click(function(){
-            alert("The file "+selectedReport+".pdf will be downloaded.");
-    });
+    // $("#downloadBtn").click(function(){
+    //         alert("The file "+selectedReport+".pdf will be downloaded.");
+    // });
 
     $("#acrobatDownloadClick").click(function(){
             //alert("The file "+selectedReport+".pdf will be downloaded.");
