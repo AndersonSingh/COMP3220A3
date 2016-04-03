@@ -1,5 +1,5 @@
 .img-center{
-    display:block; 
+    display:block;
     margin: auto;
 }
 
@@ -234,6 +234,10 @@ fieldset[disabled] .navbar-readymix .btn-link:focus {
 }
 
 #acrobatDownloadClick{
+  color: blue;
+}
+
+#aboutPageLink{
   color: blue;
 }
 

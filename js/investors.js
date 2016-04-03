@@ -12,11 +12,11 @@ $(document).ready(function() {
 
     $("#acrobatDownloadClick").hover(function()
         {
-            $(this).css('font-weight', 'bold');
+            $(this).css('text-decoration', 'underline');
         },
         function()
         {
-            $(this).css('font-weight', 'normal')
+            $(this).css('text-decoration', 'none')
         });
 
 
