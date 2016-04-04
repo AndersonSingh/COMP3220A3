@@ -1,5 +1,5 @@
 .img-center{
-    display:block; 
+    display:block;
     margin: auto;
 }
 
@@ -7,7 +7,7 @@
     color: black !important;
 }
 .clickable{
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .panel-heading span {
@@ -21,7 +21,7 @@ body{
 
 textarea{
     width: 100%;
-    
+
 }
 
 select{
@@ -109,7 +109,7 @@ select{
 }
 
 .new-message{
-    display : block; 
+    display : block;
     width: 100%;
 }
 
@@ -231,4 +231,16 @@ fieldset[disabled] .navbar-readymix .btn-link:focus {
 
 .center-label{
     text-align: center;
+}
+
+#acrobatDownloadClick{
+  color: blue;
+}
+
+#aboutPageLink{
+  color: blue;
+}
+
+#stockTableHeader,#investorReportHeader{
+  font-weight:bold;
 }
