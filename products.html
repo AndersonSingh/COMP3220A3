@@ -19,14 +19,14 @@
   </head>
   <body>
     <div class="container">
-        
+
               <!-- use this layout if on mobile, logo center, no login form -->
         <div class="row visible-xs">
             <div class="col-xs-12">
             <img class="img-center" src="img/logo.PNG">
             </div>
         </div>
-        
+
         <!-- use this layout if on desktop logo, sign in form.  -->
         <div class="row hidden-xs">
             <div class="col-md-4">
@@ -88,24 +88,23 @@
             </nav>
         </div>
         <!-- end nav bar row -->
-        
+
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-center page-title">Products</h2>
             </div>
         </div>
 
-        <!-- start concrete product -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-readymix">
-				<div class="panel-heading">
-					<h3 class="panel-title general-title">Pre-Mixed Concrete</h3>
-					<span class="pull-right clickable" id="preMixedShowHide"><i class="glyphicon glyphicon-chevron-up"></i></span>
-				</div>
-				<div class="panel-body" id="preMixedView">
-
-                    <div class="row general-row">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-readymix">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Pre-Mixed Concrete</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <div class="row general-row">
                         <h3 class="general-title">Concrete</h3>
                         <p class="general-text">
                             The Readymix  concrete we supply are in three basic categories:
@@ -129,23 +128,17 @@
                         </p>
                     </div>
                 </div>
-			</div>
-
+              </div>
             </div>
-        </div>
-        <!-- end concrete product -->
-
-        <!-- start aggregate product -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-readymix">
-				<div class="panel-heading">
-					<h3 class="panel-title general-title">Aggregates - Sand and Gravel</h3>
-					<span class="pull-right clickable" id="aggregatesShowHide"><i class="glyphicon glyphicon-chevron-up"></i></span>
-				</div>
-				<div class="panel-body" id="aggregatesView">
-
-                     <div class="row general-row">
+            <div class="panel panel-readymix">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Aggregates - Sand and Gravel</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row general-row">
                         <h3 class="general-title">Aggregates</h3>
                         <p class="general-text">
                             High quality washed sand and gravel are sourced from our quarry at Valencia or one of our three concrete depots.  You have the option of either sending your own transport, or we can deliver almost anywhere in Trinidad.
@@ -170,23 +163,18 @@
                         </p>
                     </div>
                 </div>
-			 </div>
-
+                </div>
+              </div>
             </div>
-        </div>
-        <!-- end aggregate product -->
-
-      <!-- start fibremesh product -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-readymix">
-				<div class="panel-heading">
-					<h3 class="panel-title general-title">Fibermesh</h3>
-					<span class="pull-right clickable" id="fibremeshShowHide"><i class="glyphicon glyphicon-chevron-up"></i></span>
-				</div>
-				<div class="panel-body" id="fibremeshView">
-
-                     <div class="row general-row">
+            <div class="panel panel-readymix">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Fibermesh</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row general-row">
                         <h3 class="general-title">The Fibermesh® Solution</h3>
                         <p class="general-text">
 Fibermesh® engineered fibers substantially reduce the formation of plastic settlement and shrinkage cracks by increasing the tensile strain capacity of plastic concrete. This reduction or elimination of plastic cracks enables the concrete to develop its optimum long-term integrity.
@@ -200,23 +188,17 @@ The addition of Fibermesh fibers throughout the concrete also serves to minimize
 
                     </div>
                 </div>
-			 </div>
-
+              </div>
             </div>
-        </div>
-        <!-- end aggregate product -->
-
-      <!-- start fibremesh product -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-readymix">
-				<div class="panel-heading">
-					<h3 class="panel-title general-title">Flowable Fill</h3>
-					<span class="pull-right clickable" id="flowableShowHide"><i class="glyphicon glyphicon-chevron-up"></i></span>
-				</div>
-				<div class="panel-body" id="flowableView">
-
-                     <div class="row general-row">
+            <div class="panel panel-readymix">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Flowable Fill</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row general-row">
                         <h3 class="general-title">What is Fillable fill?</h3>
                         <p class="general-text">
                             The advanced one-step cementatious based backfilling system for:
@@ -238,19 +220,24 @@ The addition of Fibermesh fibers throughout the concrete also serves to minimize
                         </p>
                     </div>
                 </div>
-			 </div>
-
+              </div>
             </div>
-        </div>
-        <!-- end aggregate product -->
 
-        <div class="row">
-            <div class="col-xs-12">
-                <p class="general-text">Copyright © 2003 Readymix (West Indies) Limited. All Rights Reserved.</p>
-                <p class="general-text">Last Updated: 04/03/2016</p>
+            <div class="row">
+              <div class="col-md-8">
+                <h5>
+                  For more information about the company, click the link below to navigate to the about page.
+                </h5>
+                <a id="aboutPageLink" href="/about.html" class="button">Go to About Page</a>
+              </div>
             </div>
-        </div>
-
+            <hr>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="general-text">Copyright © 2003 Readymix (West Indies) Limited. All Rights Reserved.</p>
+                    <p class="general-text">Last Updated: 04/03/2016</p>
+                </div>
+            </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
