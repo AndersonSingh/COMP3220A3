@@ -225,6 +225,16 @@ fieldset[disabled] .navbar-readymix .btn-link:focus {
     width: 135px;
 }
 
+.home-side-img{
+  height: 80px;
+  width: 80px;
+}
+
+.padding {
+   padding-left: 0;
+   padding-right: 0;
+}
+
 .right-label{
     text-align: right;
 }
