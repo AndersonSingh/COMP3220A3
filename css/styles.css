@@ -4,7 +4,7 @@
 }
 
 .active-link{
-    color: black !important;
+    color:#E3B781  !important;
 }
 .clickable{
     cursor: pointer;
@@ -62,7 +62,8 @@ select{
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
-    margin-bottom: 15px;
+  margin-bottom: 15px;
+  color:#E3B781;
 }
 
 .general-row{
@@ -129,7 +130,7 @@ select{
   color: #777;
 }
 .navbar-readymix .navbar-nav > li > a {
-    color: #FF9D3A;
+    color: #060606;
     font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
     font-size: 20px;
 	font-style: normal;
