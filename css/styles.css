@@ -33,6 +33,10 @@ select{
     padding-top: 1em;
 }
 
+#sign-in-button , #sign-out-button {
+  float: right;
+}
+
 
 /* custom panel for readymix */
 
