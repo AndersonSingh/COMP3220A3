@@ -19,12 +19,19 @@
   </head>
   <body>
     <div class="container">
-        <div class="row">
+              <!-- use this layout if on mobile, logo center, no login form -->
+        <div class="row visible-xs">
+            <div class="col-xs-12">
+            <img class="img-center" src="img/logo.PNG">
+            </div>
+        </div>
+
+        <!-- use this layout if on desktop logo, sign in form.  -->
+        <div class="row hidden-xs">
             <div class="col-md-4">
                 <img src="img/logo.PNG">
             </div>
             <div class="col-md-4">
-
             </div>
             <div class="col-md-4">
                 <form>
@@ -49,6 +56,7 @@
             </div>
         </div>
 
+
         <!-- start nav bar row -->
         <div class="row">
             <nav class="navbar navbar-readymix">
@@ -66,13 +74,14 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
-                    <li><a href="#" class="active-link">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a class="active-link" href="/index.html">Home</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/services.html">Services</a></li>
                     <li><a href="#">Investors</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li class="visible-xs-block"><a href="/mobile_signin.html">Sign In</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->

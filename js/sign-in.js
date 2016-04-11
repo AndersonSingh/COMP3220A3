@@ -11,7 +11,8 @@ $(document).on('click', '#sign-in-button', function(e){
    }
     else{
         //display some failure message. 
-        
+        window.location = "/signin_error.html";
+       return false;
     }
 })
 
