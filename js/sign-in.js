@@ -6,19 +6,20 @@ $(document).on('click', '#sign-in-button', function(e){
     
    if(email === "demo@demo.com" && password == "12345678"){
        //redirect to dashboard. 
-       window.location = "/dashboard.html";
+       window.location = "./dashboard.html";
        return false;
    }
     else{
         //display some failure message. 
-        window.location = "/signin_error.html";
+        window.location = "./signin_error.html";
        return false;
     }
+
 })
 
 
 $(document).on('click', '#sign-out-button', function(e){
     
-    window.location = "/index.html";
+    window.location = "./index.html";
     return false;
 })

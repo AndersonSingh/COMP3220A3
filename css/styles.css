@@ -222,12 +222,26 @@ fieldset[disabled] .navbar-readymix .btn-link:focus {
   color: #ccc;
 }
 
+.center-img{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
 .director-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
     width: 135px;
+}
+
+.home-small-img {
+    display: block;
+    margin-left:5px;
+    padding-right: 20px;
+    height: 135px;
+    width: 100px;
 }
 
 .home-side-img{
